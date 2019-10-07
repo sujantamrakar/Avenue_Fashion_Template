@@ -1,0 +1,110 @@
+
+
+/*-----------------------------------------------------------------------------------------*/
+/*Desktop View*/
+
+
+
+
+    /* Common Styles */
+
+    * a {
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+    }
+
+    * ul li {
+        list-style-type: none;
+    }
+
+    .clearfix:before,.clearfix:after {
+        content: "";
+        display: table;
+    }
+
+    .clearfix:after{
+        clear: both;
+    }
+
+    /* .main-body {
+        width: 118.6875em;
+        margin: auto;
+    } */
+
+    .container {
+        width: 86.2152%;
+        margin: auto;
+    }
+
+    .body-container {
+        width: 93.3%;
+        margin: auto;
+    }
+
+    
+
+
+    /* Header Section */
+
+    .header-section {
+        width: 100%;
+        margin: auto;
+        height: 45px;
+        content: "";
+        display: table;
+    }
+
+    .header-top {
+        background-color: #333333;
+        overflow: hidden;
+    }
+
+    .header-bottom {
+        background-color: #f8f8f8;
+        overflow: auto;
+    }
+
+
+    /* Banner Section */
+
+    .banner-section {
+        background-image: url(../images/photo.png);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 450px;
+    }
+
+
+    /* Footer Section */
+
+    .footer-section {
+        width: 100%;
+        margin: auto;
+        /* height: 641px; */
+        background-color: #f8f8f8;
+        /* margin-top: 124px; */
+    }
+
+    .footer-top{
+        width:100%;
+        padding-bottom: 63px;
+    }
+
+
+    .footer-bottom {
+        width:100%;
+        height: 60px;
+        background-color: #333333;
+    }
+
+/*-----------------------------------------------------------------------------------------*/
+/*Desktop View*/
+
+
+@media (min-width: 1024px) {
+
+    .footer-section {
+        /* height: 641px; */
+        margin-top: 50px;
+    }
+}
