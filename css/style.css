@@ -866,21 +866,6 @@
 
 @media (min-width: 1024px) {
     
-    
-
-   
-}
-
-
-/*-----------------------------------------------------------------------------------------*/
-/*Larger Desktop View*/
-
-
-@media (min-width: 1860px) {
-    /* .border-top img{
-        display: inline-block;
-    } */
-
      /* Hover-Effects */
 
      .user-login li a:hover, .currency-wrapper a:hover {
@@ -948,7 +933,7 @@
 
     .currency {
         font-size: 13px;
-        margin-left: 25%;
+        margin-left: 15%;
         padding: 16px 20px;
         line-height: 45px;
         text-align: center;
@@ -1004,16 +989,15 @@
     }
 
     .logo {
-        top: 46px;
-        left: 130px;
+        position: static;
         float: left;
-        padding: 38px 0 50px 0px;
-        width: 44.21%;
+        /* padding: 38px 0 50px 0px; */
+        width: 29%;
         /* background-color: red; */
     }
 
     .logo img{
-        width: 34%;
+        width: 250px;
     }
 
     .nav-and-search {
@@ -1037,7 +1021,7 @@
         line-height: 112px;
         font-size: 13px;
         text-transform: uppercase;
-        padding: 22px 22px;
+        padding: 22px 15px;
         background-image: url(../images/dropdown-arrow.png);
         background-repeat: no-repeat;
         background-position: 23px 47px;
@@ -1045,34 +1029,37 @@
 
     .drop-down-menu {
         display: none;
+        /* display: inline-block; */
         position: absolute;
-        width: 22.74%;
+        width: 350px;
         background-color: #f8f8f8;
-        left: 69.77%; 
-        top: 135px;
+        left: 810px; 
+        top: 140px;
         border: 1px solid rgb(230, 230, 230);
     }
 
     .drop-down-top {
         display: inline-block;
-        line-height: 35px;
+        line-height: 25px;
     }
 
     .drop-down-info {
         float: left;
-        width: 200px;
+        width: 160px;
         text-align: center;
         padding-bottom: 20px;
+        padding-left: 15px;
     }
 
     .drop-down-info h3, .drop-down-bottom h1 {
         text-transform: uppercase;
-        line-height: 45px;
+        line-height: 20px;
         text-align: center;
+        padding-bottom: 20px;
     }
 
     .drop-down-info h3 {
-        padding-top: 20px;
+        padding-top: 13px;
     }
 
     .drop-down-bottom {
@@ -1089,7 +1076,7 @@
     }
 
     .search-bar input[type=text] {
-        padding: 7px 10px;
+        padding: 4px 3px;
     }
 
     .search-bar {
@@ -1139,8 +1126,8 @@
     /* Body Section */
 
     .border-top img {
-        /* display: none; */
-        display: inline-block;
+        display: none;
+        /* display: inline-block; */
         padding-bottom: 54px;
         padding-top:63px;
     }
@@ -1182,29 +1169,31 @@
     }
 
     .first-row-left-wrapper {
+        width: 50%;
         float:left;
         clear:both;
     }
 
     .photo1 {
-        width: auto;
+        width: 257px;
         float: left;
-        padding-right: 30px;
+        /* padding-right: 30px; */
     }
 
     .photo2 {
-        width: auto;
+        width: 257px;
         float: right;
-        padding-right: 30px;
+        padding-right: 15px;
     }
 
     .first-row-right-col {
         width: 49%;
         display: inline-block;
-        height: 500px;
+        height: 297px;
     }
 
     .photo3 {
+        width: 257px;
         float:right;
     }
 
@@ -1222,21 +1211,25 @@
     }
 
     .photo4 {
+        width: 257px;
         float: left;
-        padding-right: 30px;
+        padding-right: 15px;
     }
 
     .photo5 {
+        width: 257px;
         float: right;
-        padding-right: 30px;
+        padding-right: 15px;
     }
 
     .photo6 {
+        width: 257px;
         float: left;
-        padding-right: 30px;
+        padding-right: 15px;
     }
 
     .photo7 {
+        width: 257px;
         float: right;
     }
 
@@ -1246,17 +1239,19 @@
     }
 
     .third-row-left {
+        text-align: right;
         float:left;
-        padding-left: 298px;
+        padding-left: 178px;
         background-color: #efefed;
         margin-bottom: 0px;
         padding-bottom: 0px;
-        height: 500px;
+        height: 306px;
         width: 57%;
+        margin-bottom: 30px;
     }
 
     .third-row-left img {
-        width: 101%;
+        width: 97%;
         padding-bottom: 0px;
     }
 
@@ -1271,8 +1266,8 @@
 
     .photo8-text {
         position: relative;
-        left: -280px;
-        top: -460px;
+        left: -160px;
+        top: -295px;
         height: 400px;
         text-align: left;
     }
@@ -1280,7 +1275,7 @@
     .photo3-text {
         position: relative;
         left: 20px;
-        top: -450px;
+        top: -300px;
         height: 200px;
         text-align: left;
     }
@@ -1288,13 +1283,14 @@
     .photo8-text h1, .photo3-text h1, .men-text h1, .women-text h1, .your-text h1 {
         text-transform: uppercase;
         font-weight: lighter;
-        font-size: 48px;
-        padding-bottom: 29px;
+        font-size: 36px;
+        padding-bottom: 15px;
     }
 
     .men-text h1, .women-text h1, .your-text h1 {
         padding-bottom: 29px;
         text-align: right;
+        font-size: 26px;
     }
 
     .photo8-text button, h2, .photo3-text button, h2 {
@@ -1306,25 +1302,27 @@
         text-transform: uppercase;
         font-weight: bold;
         float:right;
+
     }
     
     .photo8-text button, .photo3-text button, .men-text button, .women-text button, .your-text button {
         width: 180px;
-        height: 59px;
+        height: 39px;
         background-color: #efefed;
         border: 2px solid #737373; 
     }
 
     .photo8-text h2, .photo3-text h2 {
         font-size: 13px; 
-        padding-bottom: 19px;
+        padding-bottom: 10px;
+        width: 300px;
     }
 
     .photo8-text p, .photo3-text p {
-        font-size: 15px; 
-        line-height: 22px;
-        width: 503px;
-        padding-bottom: 30px;
+        font-size: 13px; 
+        line-height: 20px;
+        width: 300px;
+        padding-bottom: 10px;
     }
 
     .photo3-text p {
@@ -1340,7 +1338,10 @@
 
 
     .photo9 {
+        width: 257px;
         float: right;
+        padding-right: 20px;
+        margin-bottom: 30px;
     }
 
     .photo9 img{
@@ -1355,42 +1356,50 @@
     .lower-body-left {
         float:left;
         background-color: #f8f8f8;
-        width: 32%;
-        height: 530px;
+        width: 31%;
+        height: 366px;
         margin-right: 27px;
     }
 
     .lower-body-right-wrapper {
         float:right;
         width: 66.5%;
-        height: 530px;
+        height: 366px;
     }
 
     .body-left {
         float:left;
         background-color: #f8f8f8;
         width: 49%;
-        height: 530px;
+        padding-bottom: 0px;
+        /* height: 53px; */
     }
 
     .body-right {
         float:right;
         background-color: #f8f8f8;
         width: 49%;
-        height: 530px;
+        padding-bottom: 0px;
+        height: 375px;
     }
 
     .men, .women, .your {
         float:left;
         padding-left: 23px;
+        width: 45%;   
     }
 
     .men-text, .women-text, .your-text {
-        padding-left: 0px;
-        padding-right: 20px;
+        /* padding-left: 0px; */
+        padding-right: 10px;
         text-align: right;
-        padding-top: 99px;
-        width: auto;
+        padding-top: 20px;
+        width: 43%;
+        float: right;
+    }
+
+    .women-text p, .your-text p {
+        padding-bottom: 70px;
     }
 
     /* Footer Section */
@@ -1398,7 +1407,7 @@
 
     .footer-info {
         float: left;
-        width: 200px;
+        width: 160px;
         line-height: 30px;
         text-align: left;
     }
@@ -1413,22 +1422,23 @@
     }
 
     .footer-top-up {
-        margin: 75px 19.4%; 
+        margin: 40px 0 40px 10%; 
         display: inline-block;
+        text-align: center;
     }
 
     .footer-top-down{
         line-height: center;
-        width: 70%;
+        width: 84%;
         height: 200px;
-        margin: 0px 15.4%;
+        margin: 0px 8%;
         display: inline-block;
     }
 
     .footer-top-down-left {
         float:left;
-        height: 100%;
-        width: 48%;
+        height: 94%;
+        width: 49%;
         background-color: #333333;
         text-align: center;
     }
@@ -1444,14 +1454,16 @@
 
     .footer-top-down-right {
         float:right;
-        height: 100%;
-        width: 48%;
+        height: 94%;
+        width: 49%;
         background-color: #00c8c8;
         color: white;
+        
     }
 
     .footer-top-down-right img {
-        padding: 83px 145px;
+        padding: 83px 0px;
+        text-align: center;
     }
 
     .footer-top-down-left h1 {
@@ -1476,13 +1488,15 @@
         color: #777777;
         line-height: 21px;
         font-size: 13px;
+        line-height: 37px;
     }
 
     .footer-bottom-right-wrapper {
-        float:right;
-        width: 21%;
+        float: right;
+        width: 34%;
         padding-right: 14.55%;
         padding-top: 10px;
+        
     }
 
     .footer-left a {
@@ -1490,6 +1504,7 @@
         color: #777777;
         line-height: 21px;
         font-size: 13px;
+        line-height: 37px;
     }
 
     .footer-right a {
@@ -1497,5 +1512,19 @@
         color: #777777;
         line-height: 21px;
         font-size: 13px;
+        line-height: 37px;
+    }
+
+   
+}
+
+
+/*-----------------------------------------------------------------------------------------*/
+/*Larger Desktop View*/
+
+
+@media (min-width: 1860px) {
+    .border-top img{
+        display: inline-block;
     }
 }
