@@ -128,7 +128,7 @@
     position: absolute;
     float: left;
     padding: 4px 161px 2px 2px;
-    width: 10%;
+    width: 36px;
     top: 10px;
     left: 110px;
     background-color: #f8f8f8;
@@ -251,7 +251,7 @@
 
 .banner-section img {
     width: 100%;
-    height: 300px;
+    height: 450px;
 }
 
 .banner-section {
@@ -319,11 +319,6 @@
     width: 100%;
     padding-bottom: 16px;
     display: inline-block;
-}
-
-.photo3-text {
-    display: inline-block;
-    
 }
 
 .photo3 img {
@@ -560,9 +555,6 @@
     font-size: 30px;
 }
 
-
-
-
 .footer-bottom-left {
     float:left;
     padding-top: 7px;
@@ -678,8 +670,8 @@
 
     .user-and-cart-wrapper {
         float: right;
-        width: 80.74%;
-        margin: auto;
+        width: 55%;
+        /* margin: auto; */
     }
 
     .user-login li a {
@@ -701,7 +693,8 @@
         display: contents;
         float: left;
         display: block;
-        margin-left: 50%; 
+        padding-left: 16%; 
+        /* margin-right: 5px; */
     }
 
     .cart-wrapper {
@@ -725,7 +718,7 @@
         /* top: 46px; */
         /* left: 130px; */
         float: left;
-        padding: 38px 0 50px 0px;
+        padding: 17px 0px;
         width: 44.21%;
         position: static
         /* background-color: red; */
@@ -754,7 +747,7 @@
     }
 
     .nav-bar li a {
-        line-height: 112px;
+        line-height: 74px;
         font-size: 13px;
         text-transform: uppercase;
         padding: 22px 22px;
@@ -814,9 +807,9 @@
 
     .search-bar {
         float:right;
-        padding-left: 5px;
-        text-align: center;
-        line-height: 112px;
+        /* padding-left: 5px; */
+        /* text-align: center; */
+        /* line-height: 74px; */
     }
 
     .search-bar a img{
@@ -933,7 +926,7 @@
 
     .currency {
         font-size: 13px;
-        margin-left: 15%;
+        margin-left: 6%;
         padding: 16px 20px;
         line-height: 45px;
         text-align: center;
@@ -964,13 +957,6 @@
         padding: 16px 16px;
     }
 
-    .user-login {
-        display: contents;
-        float: left;
-        display: block;
-        margin-left: 50%; 
-    }
-
     .cart-wrapper {
         float: right;
         padding-left: 0px;
@@ -991,7 +977,7 @@
     .logo {
         position: static;
         float: left;
-        /* padding: 38px 0 50px 0px; */
+        padding: 45px 0 45px 0px;
         width: 29%;
         /* background-color: red; */
     }
@@ -1008,9 +994,7 @@
     }
 
     .nav-bar {
-        display: inline-block;
-        float: right;
-        /* padding-left: 22%; */
+        padding-right: 1%;
     }
 
     .nav-bar li {
@@ -1021,7 +1005,7 @@
         line-height: 112px;
         font-size: 13px;
         text-transform: uppercase;
-        padding: 22px 15px;
+        padding: 22px 6px;
         background-image: url(../images/dropdown-arrow.png);
         background-repeat: no-repeat;
         background-position: 23px 47px;
@@ -1156,13 +1140,13 @@
         height: 40px;
     }
 
-    .first-row {
+    /* .first-row {
         margin-bottom: 30px;
-    }
+    } */
 
-    .second-row {
-        margin: 30px 0px;
-    }
+    /* .second-row {
+        margin: 0px 0px;
+    } */
 
     .third-row {
         margin: 0px 0px;
@@ -1175,21 +1159,21 @@
     }
 
     .photo1 {
-        width: 257px;
+        width: 227px;
         float: left;
         /* padding-right: 30px; */
     }
 
     .photo2 {
-        width: 257px;
+        width: 227px;
         float: right;
         padding-right: 15px;
     }
 
     .first-row-right-col {
-        width: 49%;
+        width: 49.7%;
         display: inline-block;
-        height: 297px;
+        height: 260px;
     }
 
     .photo3 {
@@ -1211,25 +1195,25 @@
     }
 
     .photo4 {
-        width: 257px;
+        width: 227px;
         float: left;
         padding-right: 15px;
     }
 
     .photo5 {
-        width: 257px;
+        width: 227px;
         float: right;
         padding-right: 15px;
     }
 
     .photo6 {
-        width: 257px;
+        width: 227px;
         float: left;
         padding-right: 15px;
     }
 
     .photo7 {
-        width: 257px;
+        width: 227px;
         float: right;
     }
 
@@ -1245,8 +1229,8 @@
         background-color: #efefed;
         margin-bottom: 0px;
         padding-bottom: 0px;
-        height: 306px;
-        width: 57%;
+        height: 270px;
+        width: 56%;
         margin-bottom: 30px;
     }
 
@@ -1266,17 +1250,17 @@
 
     .photo8-text {
         position: relative;
-        left: -160px;
-        top: -295px;
-        height: 400px;
+        left: -168px;
+        top: -255px;
+        /* height: 400px; */
         text-align: left;
     }
 
     .photo3-text {
         position: relative;
-        left: 20px;
-        top: -300px;
-        height: 200px;
+        left: 8px;
+        top: -264px;
+        /* height: 200px; */
         text-align: left;
     }
 
@@ -1306,7 +1290,7 @@
     }
     
     .photo8-text button, .photo3-text button, .men-text button, .women-text button, .your-text button {
-        width: 180px;
+        width: 112px;
         height: 39px;
         background-color: #efefed;
         border: 2px solid #737373; 
@@ -1320,7 +1304,7 @@
 
     .photo8-text p, .photo3-text p {
         font-size: 13px; 
-        line-height: 20px;
+        line-height: 15px;
         width: 300px;
         padding-bottom: 10px;
     }
@@ -1332,15 +1316,15 @@
     .men-text p, .women-text p, .your-text p {
         font-size: 15px; 
         line-height: 22px;
-        padding-bottom: 31px;
+        padding-bottom: 6px;
         text-align: right;
     }
 
 
     .photo9 {
-        width: 257px;
+        width: 227px;
         float: right;
-        padding-right: 20px;
+        /* padding-right: 20px; */
         margin-bottom: 30px;
     }
 
@@ -1356,9 +1340,10 @@
     .lower-body-left {
         float:left;
         background-color: #f8f8f8;
-        width: 31%;
-        height: 366px;
-        margin-right: 27px;
+        width: 32%;
+        padding-bottom: 6px;
+        /* height: 366px; */
+        /* margin-right: 27px; */
     }
 
     .lower-body-right-wrapper {
@@ -1379,8 +1364,8 @@
         float:right;
         background-color: #f8f8f8;
         width: 49%;
-        padding-bottom: 0px;
-        height: 375px;
+        padding-bottom: 5px;
+        /* height: 375px; */
     }
 
     .men, .women, .your {
@@ -1399,7 +1384,7 @@
     }
 
     .women-text p, .your-text p {
-        padding-bottom: 70px;
+        padding-bottom: 26px;
     }
 
     /* Footer Section */
@@ -1422,7 +1407,7 @@
     }
 
     .footer-top-up {
-        margin: 40px 0 40px 10%; 
+        margin: 40px 0 40px 5%; 
         display: inline-block;
         text-align: center;
     }
@@ -1493,8 +1478,8 @@
 
     .footer-bottom-right-wrapper {
         float: right;
-        width: 34%;
-        padding-right: 14.55%;
+        width: 38%;
+        /* padding-right: 14.55%; */
         padding-top: 10px;
         
     }

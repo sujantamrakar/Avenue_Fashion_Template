@@ -36,6 +36,12 @@
         margin: auto;
     }
 
+    .container {
+        width: 86.2152%;
+        margin: auto;
+        /* display: inline; */
+    }
+
     .body-container {
         width: 93.3%;
         margin: auto;
@@ -103,8 +109,5 @@
 
 @media (min-width: 1024px) {
 
-    .footer-section {
-        /* height: 641px; */
-        margin-top: 50px;
-    }
+
 }
