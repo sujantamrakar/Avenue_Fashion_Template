@@ -957,9 +957,13 @@
         padding: 16px 16px;
     }
 
+    .user-login {
+        padding-left: 31%;
+    }
+
     .cart-wrapper {
         float: right;
-        padding-left: 0px;
+        padding-right: 24%;
     }
 
     .cart-wrapper a{
@@ -1229,12 +1233,9 @@
         float:left;
         padding-left: 178px;
         background-color: #efefed;
-        margin-bottom: 0px;
-        padding-bottom: 0px;
-        /* height: 270px; */
         width: 61.5%;
         margin-bottom: 30px;
-        padding-bottom: 0px;
+        padding-bottom: 44px;
     }
 
     .third-row-left img {
