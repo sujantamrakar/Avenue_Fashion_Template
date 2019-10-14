@@ -39,7 +39,7 @@
     .container {
         width: 86.2152%;
         margin: auto;
-        /* display: inline; */
+        text-align: center;
     }
 
     .body-container {

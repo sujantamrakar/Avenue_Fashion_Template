@@ -1005,7 +1005,7 @@
         line-height: 112px;
         font-size: 13px;
         text-transform: uppercase;
-        padding: 22px 6px;
+        padding: 22px 22px;
         background-image: url(../images/dropdown-arrow.png);
         background-repeat: no-repeat;
         background-position: 23px 47px;
@@ -1159,13 +1159,13 @@
     }
 
     .photo1 {
-        width: 227px;
+        width: 48%;
         float: left;
         /* padding-right: 30px; */
     }
 
     .photo2 {
-        width: 227px;
+        width: 48%;
         float: right;
         padding-right: 15px;
     }
@@ -1188,32 +1188,34 @@
 
     .second-row-left-wrapper {
         float:left;
+        width: 50%;
     }
 
     .second-row-right-wrapper {
         float:left;
+        width: 50%;
     }
 
     .photo4 {
-        width: 227px;
+        width: 48%;
         float: left;
-        padding-right: 15px;
+        /* padding-right: 15px; */
     }
 
     .photo5 {
-        width: 227px;
+        width: 48%;
         float: right;
         padding-right: 15px;
     }
 
     .photo6 {
-        width: 227px;
+        width: 48%;
         float: left;
         padding-right: 15px;
     }
 
     .photo7 {
-        width: 227px;
+        width: 48%;
         float: right;
     }
 
@@ -1229,13 +1231,14 @@
         background-color: #efefed;
         margin-bottom: 0px;
         padding-bottom: 0px;
-        height: 270px;
-        width: 56%;
+        /* height: 270px; */
+        width: 61.5%;
         margin-bottom: 30px;
+        padding-bottom: 0px;
     }
 
     .third-row-left img {
-        width: 97%;
+        width: 95%;
         padding-bottom: 0px;
     }
 
@@ -1250,16 +1253,17 @@
 
     .photo8-text {
         position: relative;
-        left: -168px;
-        top: -255px;
-        /* height: 400px; */
+        left: -146px;
+        top: -373px;
+        height: auto;
         text-align: left;
+        margin-bottom: -286px;
     }
 
     .photo3-text {
         position: relative;
-        left: 8px;
-        top: -264px;
+        left: 17px;
+        top: -376px;
         /* height: 200px; */
         text-align: left;
     }
@@ -1305,7 +1309,7 @@
     .photo8-text p, .photo3-text p {
         font-size: 13px; 
         line-height: 15px;
-        width: 300px;
+        width: 42%;
         padding-bottom: 10px;
     }
 
@@ -1322,7 +1326,7 @@
 
 
     .photo9 {
-        width: 227px;
+        width: 24%;
         float: right;
         /* padding-right: 20px; */
         margin-bottom: 30px;
@@ -1340,7 +1344,7 @@
     .lower-body-left {
         float:left;
         background-color: #f8f8f8;
-        width: 32%;
+        width: 32.5%;
         padding-bottom: 6px;
         /* height: 366px; */
         /* margin-right: 27px; */
@@ -1364,7 +1368,7 @@
         float:right;
         background-color: #f8f8f8;
         width: 49%;
-        padding-bottom: 5px;
+        /* padding-bottom: 5px; */
         /* height: 375px; */
     }
 
@@ -1390,12 +1394,12 @@
     /* Footer Section */
 
 
-    .footer-info {
+    /* .footer-info {
         float: left;
         width: 160px;
         line-height: 30px;
         text-align: left;
-    }
+    } */
 
     .footer-top-up h3 {
         font-size: 13px;
@@ -1478,7 +1482,7 @@
 
     .footer-bottom-right-wrapper {
         float: right;
-        width: 38%;
+        width: 350px;
         /* padding-right: 14.55%; */
         padding-top: 10px;
         
