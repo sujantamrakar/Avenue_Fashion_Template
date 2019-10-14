@@ -1372,7 +1372,6 @@
         background-color: #f8f8f8;
         width: 49%;
         padding-bottom: 0px;
-        /* height: 53px; */
     }
 
     .body-right {
@@ -1390,7 +1389,6 @@
     }
 
     .men-text, .women-text, .your-text {
-        /* padding-left: 0px; */
         padding-right: 10px;
         text-align: right;
         padding-top: 20px;
