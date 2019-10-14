@@ -962,8 +962,7 @@
     }
 
     .cart-wrapper {
-        float: left;
-        /* padding-right: 24%; */
+        float:left;
     }
 
     .cart-wrapper a{
@@ -1468,7 +1467,6 @@
     .footer-bottom-right-wrapper {
         float: right;
         width: 350px;
-        /* padding-right: 14.55%; */
         padding-top: 10px;
         
     }
